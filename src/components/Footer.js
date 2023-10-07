@@ -23,7 +23,7 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/1sisodiyaji"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -34,7 +34,7 @@ function Footer() {
 
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/golu-singh-602023204/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -45,7 +45,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/golu_singh_sisodiya/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
