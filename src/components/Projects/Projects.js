@@ -6,6 +6,8 @@ import RazorPay from "../../Assets/Projects/RazorPay.jpg";
 import Weather from "../../Assets/Projects/Weather.jpg";
 import StudyNotion from "../../Assets/Projects/StudyNotion.jpg";
 import TripPlanner from "../../Assets/Projects/TripPlanner.jpg";
+import KishanMitra from "../../Assets/Projects/kishan-Mitra.jpg";
+import builder from "../../Assets/Projects/portfolio-builder.jpg";
 
 function Projects() {
   return (
@@ -60,7 +62,26 @@ function Projects() {
              
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={KishanMitra}
+              isBlog={false}
+              title="Kishan Mitra"
+              description="These is an tech app for farmers to navigate through weather , current price of goods along with an chat bot integration is inprocess"
+              demoLink ="https://kishanmitra01.000webhostapp.com/"
+              ghLink ="https://github.com/1sisodiyaji/Kishan-Mitra.git"
+             
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={builder}
+              isBlog={false}
+              title="Portfolio Builder"
+              description="These is an portfolio Bilder website"
+              demoLink ="https://vyaktitv.000webhostapp.com/"
+            />
+          </Col>
          
         </Row>
       </Container>

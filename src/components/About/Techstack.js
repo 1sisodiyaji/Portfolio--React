@@ -1,5 +1,7 @@
 import React from "react";
+import { SiExpress } from "react-icons/si";
 import { Col, Row } from "react-bootstrap";
+import { TbSeo } from "react-icons/tb";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -8,6 +10,7 @@ import {
   DiMongodb,
   DiGit,
   DiJava,
+  DiPhp,
 } from "react-icons/di";
 import {
   SiNextdotjs,
@@ -32,13 +35,19 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiExpress/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <TbSeo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>    
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
       </Col>
       
     </Row>
